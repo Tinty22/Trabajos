@@ -52,17 +52,15 @@ public class floresamarillas extends JFrame {
 
 		PORONGA.addActionListener(new ActionListener() {
 
-			public void actionPerformed(ActionEvent e, DefaultTableModel modeloTabla) {
+			public void actionPerformed(ActionEvent e) {
 				
 				Mostrar(pArr, modeloTabla);
-				modeloTabla = null;
-			}
-
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				
 			}
+
+			
+				
+			
 
 			
 			
